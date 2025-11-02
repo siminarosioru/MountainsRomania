@@ -10,4 +10,6 @@ public class MountainsRomania {
 		window.setVisible(true);
 		window.setSize(500, 800);
 		window.setLocationRelativeTo(null);
-		
+
+	}
+}

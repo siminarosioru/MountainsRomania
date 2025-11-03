@@ -10,6 +10,9 @@ public class MountainsRomania {
 		window.setVisible(true);
 		window.setSize(500, 800);
 		window.setLocationRelativeTo(null);
-
+		
+		//close the execution program
+		window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
 	}
 }

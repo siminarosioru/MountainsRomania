@@ -1,5 +1,7 @@
 package mainGraphicalInterface;
 
+import java.awt.Dimension;
+
 import javax.swing.JFrame;
 
 public class MountainsRomania {
@@ -13,6 +15,9 @@ public class MountainsRomania {
 		
 		//close the execution program
 		window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+		//set the minimum size of application
+		window.setMinimumSize(new Dimension(400, 400));
 		
 	}
 }

@@ -19,5 +19,9 @@ public class MountainsRomania {
 		//set the minimum size of application
 		window.setMinimumSize(new Dimension(400, 400));
 		
+		//create panels
+		JPanel leftPanel = new JPanel();
+		JPanel rightPanel = new JPanel();
+		
 	}
 }

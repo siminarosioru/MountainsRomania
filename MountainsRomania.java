@@ -22,6 +22,10 @@ public class MountainsRomania {
 		//create panels
 		JPanel leftPanel = new JPanel();
 		JPanel rightPanel = new JPanel();
+
+		//add panels to window
+		window.add(leftPanel);
+		window.add(rightPanel);
 		
 	}
 }

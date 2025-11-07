@@ -28,5 +28,8 @@ public class MountainsRomania {
 		window.add(leftPanel);
 		window.add(rightPanel);
 		
+		//Layout - see every window
+		window.setLayout(new BoxLayout(window.getContentPane(), BoxLayout.X_AXIS));
+		
 	}
 }

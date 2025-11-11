@@ -1,5 +1,6 @@
 package mainGraphicalInterface;
 
+import java.awt.Color;
 import java.awt.Dimension;
 
 import javax.swing.BoxLayout;
@@ -31,6 +32,10 @@ public class MountainsRomania {
 		
 		//Layout - see every window
 		window.setLayout(new BoxLayout(window.getContentPane(), BoxLayout.X_AXIS));
+
+		//import the colors
+		leftPanel.setBackground(Color.green);
+		rightPanel.setBackground(Color.orange);
 		
 	}
 }

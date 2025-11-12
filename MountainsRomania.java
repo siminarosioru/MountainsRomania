@@ -36,6 +36,10 @@ public class MountainsRomania {
 		//import the colors
 		leftPanel.setBackground(Color.green);
 		rightPanel.setBackground(Color.orange);
+
+		//create button
+		JButton b = new JButton("Mountains");
+		leftPanel.add(b); //add a button to the green panel
 		
 	}
 }

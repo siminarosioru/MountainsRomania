@@ -42,5 +42,8 @@ public class MountainsRomania {
 		JButton b = new JButton("Mountains");
 		leftPanel.add(b); //add a button to the green panel
 		
+		//create a new window
+		JFrame myFrame = new JFrame("the highest mountain peaks in Romania ");
+		
 	}
 }

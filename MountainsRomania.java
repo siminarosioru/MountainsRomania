@@ -44,6 +44,9 @@ public class MountainsRomania {
 		
 		//create a new window
 		JFrame myFrame = new JFrame("the highest mountain peaks in Romania ");
+
+		//close the execution program
+		myFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
 	}
 }

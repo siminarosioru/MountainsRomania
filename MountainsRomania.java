@@ -47,6 +47,7 @@ public class MountainsRomania {
 
 		//close the execution program
 		myFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		
+
+		myFrame.setSize(500, 400);
 	}
 }

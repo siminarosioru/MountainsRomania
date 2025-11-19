@@ -51,7 +51,7 @@ public class MountainsRomania {
 			}
 		});
 		
-		
-		
+		//see the window
+		window.setVisible(true);
 	}
 }

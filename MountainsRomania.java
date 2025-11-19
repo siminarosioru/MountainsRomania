@@ -2,6 +2,8 @@ package mainGraphicalInterface;
 
 import java.awt.Color;
 import java.awt.Dimension;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 import javax.swing.BoxLayout;
 import javax.swing.JButton;
@@ -42,14 +44,14 @@ public class MountainsRomania {
 		JButton b = new JButton("Mountains");
 		leftPanel.add(b); //add a button to the green panel
 		
-		//create a new window
-		JFrame myFrame = new JFrame("the highest mountain peaks in Romania ");
-
-		//close the execution program
-		myFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-
-		myFrame.setSize(500, 400);
-		myFrame.setLayout(null);
+		//press the Mountains button => opens a new window
+		b.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				new Peaks();
+			}
+		});
+		
+		
 		
 	}
 }

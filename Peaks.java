@@ -11,6 +11,7 @@ public class Peaks {
 		JFrame myFrame = new JFrame("The highest mountain peaks in Romania ");
 		
 		myFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		myFrame.setBounds(200, 100, 600, 400);
 
   }
   

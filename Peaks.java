@@ -12,6 +12,7 @@ public class Peaks {
 		
 		myFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		myFrame.setBounds(200, 100, 600, 400);
+		myFrame.setLayout(null);
 
   }
   

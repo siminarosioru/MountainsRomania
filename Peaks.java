@@ -14,5 +14,8 @@ public class Peaks {
 		myFrame.setBounds(200, 100, 600, 400);
 		myFrame.setLayout(null);
 
+		//list of the highest mountain peaks in Romania
+		String[]peaks = {"the Retezat peak", "the Omu peak", "the Peleaga peak"};
+
   }
   

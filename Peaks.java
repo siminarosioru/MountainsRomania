@@ -17,5 +17,8 @@ public class Peaks {
 		//list of the highest mountain peaks in Romania
 		String[]peaks = {"the Retezat peak", "the Omu peak", "the Peleaga peak"};
 
+		//create JComboBox
+		JComboBox<String> myComboBox = new JComboBox<String>(peaks);
+
   }
   

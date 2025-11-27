@@ -20,6 +20,9 @@ public class Peaks {
 		//create JComboBox
 		JComboBox<String> myComboBox = new JComboBox<String>(peaks);
 		myComboBox.addItem("the Papusa peak");
+
+		//positioning in the window
+		myComboBox.setBounds(400, 100, 200, 50);
 		
 
   }

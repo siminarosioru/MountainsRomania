@@ -19,6 +19,8 @@ public class Peaks {
 
 		//create JComboBox
 		JComboBox<String> myComboBox = new JComboBox<String>(peaks);
+		myComboBox.addItem("the Papusa peak");
+		
 
   }
   

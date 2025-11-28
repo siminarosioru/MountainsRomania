@@ -27,7 +27,9 @@ public class Peaks {
 
 		//add the comboBox to the current window 
 		myFrame.add(myComboBox);
-		
 
+		//the area where the description appears
+		JTextArea descriptionArea = new JTextArea();
+		
   }
   

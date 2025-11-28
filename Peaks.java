@@ -24,6 +24,9 @@ public class Peaks {
 
 		//positioning in the window
 		myComboBox.setBounds(400, 100, 200, 50);
+
+		//add the comboBox to the current window 
+		myFrame.add(myComboBox);
 		
 
   }

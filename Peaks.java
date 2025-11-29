@@ -31,6 +31,8 @@ public class Peaks {
 
 		//the area where the description appears
 		JTextArea descriptionArea = new JTextArea();
+
+		descriptionArea.setBounds(50, 100, 300, 150);
 		
   }
   

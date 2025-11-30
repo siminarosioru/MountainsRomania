@@ -34,6 +34,7 @@ public class Peaks {
 
 		descriptionArea.setBounds(50, 100, 300, 150);
 		descriptionArea.setEditable(false);
+		descriptionArea.setLineWrap(true);
 		
   }
   

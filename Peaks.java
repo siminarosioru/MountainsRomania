@@ -37,6 +37,12 @@ public class Peaks {
 		descriptionArea.setLineWrap(true);
 		descriptionArea.setWrapStyleWord(true);
 		myFrame.add(descriptionArea);
+
+		//descriptions for each peak
+		String retezatInfo = "Retezat Peak has 2482 m.\n"
+						+"It is located in the Retezat Mountains and "
+						+"is known for its spectacular glacial lakes.";
+		
 		
   }
   

@@ -42,7 +42,9 @@ public class Peaks {
 		String retezatInfo = "Retezat Peak has 2482 m.\n"
 						+"It is located in the Retezat Mountains and "
 						+"is known for its spectacular glacial lakes.";
-		
+		String omuInfo = "Omu Peak has 2507 m.\n"
+						+"It is the highest peak in the Bucegi Mountains and the sixth in Romania.";
+				
 		
   }
   

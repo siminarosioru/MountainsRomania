@@ -36,6 +36,7 @@ public class Peaks {
 		descriptionArea.setEditable(false);
 		descriptionArea.setLineWrap(true);
 		descriptionArea.setWrapStyleWord(true);
+		myFrame.add(descriptionArea);
 		
   }
   

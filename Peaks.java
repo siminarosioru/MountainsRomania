@@ -46,6 +46,8 @@ public class Peaks {
 						+"It is the highest peak in the Bucegi Mountains and the sixth in Romania.";
 		String peleagaInfo = "Peleaga Peak has 2509 m.\n"
 						+"The highest peak in the Retezat Mountains, easily accessible via the ridge.";
+		String papusaInfo = "Papusa Peak has 2391 m.\n"
+						+"A peak in the Parâng massif, which offers very beautiful views.";
 						
 		
   }

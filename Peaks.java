@@ -48,6 +48,11 @@ public class Peaks {
 						+"The highest peak in the Retezat Mountains, easily accessible via the ridge.";
 		String papusaInfo = "Papusa Peak has 2391 m.\n"
 						+"A peak in the Parâng massif, which offers very beautiful views.";
+
+		//add an ActionListener that will receive an ActionEvent when a selection has been made
+		myComboBox.addActionListener(new ActionListener() {
+
+		});
 						
 		
   }

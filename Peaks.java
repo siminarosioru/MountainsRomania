@@ -54,7 +54,9 @@ public class Peaks {
 
 		//add an ActionListener that will receive an ActionEvent when a selection has been made
 		myComboBox.addActionListener(new ActionListener() {
-
+			public void actionPerformed(ActionEvent e) {
+				
+			}
 		});
 						
 		

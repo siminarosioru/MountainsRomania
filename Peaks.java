@@ -61,6 +61,9 @@ public class Peaks {
 					case "the Retezat peak":
 						descriptionArea.setText(retezatInfo);
 								break;
+					case "the Omu peak":
+								descriptionArea.setText(omuInfo);
+								break;
 				}
 			}
 		});

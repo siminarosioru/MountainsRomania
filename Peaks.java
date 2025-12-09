@@ -56,7 +56,12 @@ public class Peaks {
 		myComboBox.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				String selected = (String) myComboBox.getSelectedItem();
-				
+
+				switch(selected) {
+					case "the Retezat peak":
+						descriptionArea.setText(retezatInfo);
+								break;
+				}
 			}
 		});
 						

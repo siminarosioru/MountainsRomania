@@ -67,6 +67,9 @@ public class Peaks {
 					case "the Peleaga peak":
 								descriptionArea.setText(peleagaInfo);
 								break;
+					case "the Papusa peak":
+								descriptionArea.setText(papusaInfo);
+								break;
 				}
 			}
 		});

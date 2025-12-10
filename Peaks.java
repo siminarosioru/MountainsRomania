@@ -74,6 +74,6 @@ public class Peaks {
 			}
 		});
 						
-		
+		myFrame.setVisible(true);
   }
   

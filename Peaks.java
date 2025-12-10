@@ -64,6 +64,9 @@ public class Peaks {
 					case "the Omu peak":
 								descriptionArea.setText(omuInfo);
 								break;
+					case "the Peleaga peak":
+								descriptionArea.setText(peleagaInfo);
+								break;
 				}
 			}
 		});

@@ -10,6 +10,8 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
+import peaks.Peaks;
+
 public class MountainsRomania {
 
 	public static void main(String[] args) {
@@ -19,27 +21,28 @@ public class MountainsRomania {
 		window.setSize(500, 800);
 		window.setLocationRelativeTo(null);
 		
-		//close the execution program
+		//When you click the X, you should close the execution program.
 		window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-
-		//set the minimum size of application
-		window.setMinimumSize(new Dimension(400, 400));
 		
+		//set the minimum size of application
+		window.setMinimumSize(new Dimension(400, 400)); 
+		
+
 		//create panels
 		JPanel leftPanel = new JPanel();
 		JPanel rightPanel = new JPanel();
-
+		
 		//add panels to window
 		window.add(leftPanel);
 		window.add(rightPanel);
 		
 		//Layout - see every window
-		window.setLayout(new BoxLayout(window.getContentPane(), BoxLayout.X_AXIS));
-
-		//import the colors
+		window.setLayout(new BoxLayout(window.getContentPane(), BoxLayout.X_AXIS);
+		
+		//the colors
 		leftPanel.setBackground(Color.green);
 		rightPanel.setBackground(Color.orange);
-
+		
 		//create button
 		JButton b = new JButton("Mountains");
 		leftPanel.add(b); //add a button to the green panel

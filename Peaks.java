@@ -1,79 +1,35 @@
-package mainGraphicalInterface;
+package peaks;
 
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import java.awt.Image;
 
+import javax.swing.ImageIcon;
 import javax.swing.JComboBox;
 import javax.swing.JFrame;
+import javax.swing.JLabel;
 import javax.swing.JTextArea;
 
-public class Peaks {
+import images.Images;
 
+public class Peaks
+{
 	//constructor
-  public Peaks() 
+	public Peaks()
 	{
-		//create a new window
-		JFrame myFrame = new JFrame("The highest mountain peaks in Romania ");
+		JFrame frame = new JFrame("The highest mountain peaks in Romania");
+		frame.setBounds(200, 100, 600, 450);
+		frame.setLayout(null);
+		frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		
-		myFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		myFrame.setBounds(200, 100, 600, 400);
-		myFrame.setLayout(null);
-
-		//list of the highest mountain peaks in Romania
-		String[]peaks = {"the Retezat peak", "the Omu peak", "the Peleaga peak"};
-
-		//create JComboBox
-		JComboBox<String> myComboBox = new JComboBox<String>(peaks);
-		myComboBox.addItem("the Papusa peak");
-
-		//positioning in the window
-		myComboBox.setBounds(400, 100, 200, 50);
-
-		//add the comboBox to the current window 
-		myFrame.add(myComboBox);
-
+		JComboBox<Images> combo = new JComboBox<>();
+		combo.setBounds(350, 50, 200, 30);
+		
 		//the area where the description appears
 		JTextArea descriptionArea = new JTextArea();
 
-		descriptionArea.setBounds(50, 100, 300, 150);
-		descriptionArea.setEditable(false);
-		descriptionArea.setLineWrap(true);
-		descriptionArea.setWrapStyleWord(true);
-		myFrame.add(descriptionArea);
-
-		//descriptions for each peak
-		String retezatInfo = "Retezat Peak has 2482 m.\n"
-						+"It is located in the Retezat Mountains and "
-						+"is known for its spectacular glacial lakes.";
-		String omuInfo = "Omu Peak has 2507 m.\n"
-						+"It is the highest peak in the Bucegi Mountains and the sixth in Romania.";
-		String peleagaInfo = "Peleaga Peak has 2509 m.\n"
-						+"The highest peak in the Retezat Mountains, easily accessible via the ridge.";
-		String papusaInfo = "Papusa Peak has 2391 m.\n"
-						+"A peak in the Parâng massif, which offers very beautiful views.";
-
-		//add an ActionListener that will receive an ActionEvent when a selection has been made
-		myComboBox.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				String selected = (String) myComboBox.getSelectedItem();
-
-				switch(selected) {
-					case "the Retezat peak":
-						descriptionArea.setText(retezatInfo);
-								break;
-					case "the Omu peak":
-								descriptionArea.setText(omuInfo);
-								break;
-					case "the Peleaga peak":
-								descriptionArea.setText(peleagaInfo);
-								break;
-					case "the Papusa peak":
-								descriptionArea.setText(papusaInfo);
-								break;
-				}
-			}
-		});
-						
-		myFrame.setVisible(true);
-  }
-  
+		descriptionArea.setBounds(30, 50, 280, 120);
+		//sets the specified boolean value to indicate whether or not this TextComponent should be editable
+		descriptionArea.setEditable(false); 
+		
+		JLabel imageLabel = new JLabel();
+		imageLabel.setBounds(30, 200, 280, 180);
+		

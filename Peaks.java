@@ -32,4 +32,37 @@ public class Peaks
 		
 		JLabel imageLabel = new JLabel();
 		imageLabel.setBounds(30, 200, 280, 180);
+
+		//connection with the Images class
+		combo.addItem(new Images(
+				"Omu peak",
+				"Omu Peak has 2507 m. \n"
+				+ "It is the highest peak in the Bucegi Mountains \n"
+				+ " and the sixth in Romania.",
+				"/resurse/omu.png.jpg"
+		));
+		
+		combo.addItem(new Images(
+				"Retezat peak",
+				"Retezat Peak has 2482 m. \n"
+				+ "It is located in the Retezat Mountains \n"
+				+ " and is known for its specta",
+				"/resurse/retezat.png.jpg"
+		));
+		
+		combo.addItem(new Images(
+				"Peleaga peak",
+				"Peleaga Peak has 2509 m.\n"
+				+ "The highest peak in the Retezat Mountains, \n"
+				+ "easily accessible via the ridge.",
+				"/resurse/peleaga.png.jpg"
+		));
+		
+		combo.addItem(new Images(
+				"Papusa peak",
+				"Papusa Peak has 2391 m.\n"
+				+"A peak in the Parâng massif, \n"
+				+ "which offers very beautiful views.",
+				"/resurse/papusa.png.jpg"
+		));
 		

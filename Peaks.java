@@ -65,4 +65,21 @@ public class Peaks
 				+ "which offers very beautiful views.",
 				"/resurse/papusa.png"
 		));
+
+		//the ActionListener will receive an ActionEvent when a selection has been made
+		combo.addActionListener(e -> {
+			Images selected = (Images) combo.getSelectedItem();
+			if(selected != null) 
+			{
+				descriptionArea.setText(selected.getDescription());
+				
+				Image img = selected.getIcon().getImage()
+						.getScaledInstance(
+								imageLabel.getWidth(),
+								imageLabel.getHeight(),
+								Image.SCALE_SMOOTH
+						);
+				imageLabel.setIcon(new ImageIcon(img));
+			}
+		});
 		

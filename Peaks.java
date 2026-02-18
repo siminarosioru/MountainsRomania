@@ -82,4 +82,6 @@ public class Peaks
 				imageLabel.setIcon(new ImageIcon(img));
 			}
 		});
+
+		frame.add(combo);
 		

@@ -87,5 +87,6 @@ public class Peaks
 		frame.add(descriptionArea);
 		frame.add(imageLabel);
 
+		frame.setVisible(true);
 	}
 }

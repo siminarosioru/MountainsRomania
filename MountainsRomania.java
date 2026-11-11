@@ -10,6 +10,7 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
+import chalet.MountainsRomaniaChalet;
 import peaks.Peaks;
 
 public class MountainsRomania {

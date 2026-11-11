@@ -67,8 +67,8 @@ public class MountainsRomania {
 		});
 		
 		
-		
 		//see the window
 		window.setVisible(true);
+		b1.setVisible(true);
 	}
 }

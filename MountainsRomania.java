@@ -59,6 +59,13 @@ public class MountainsRomania {
 		JButton b1 = new JButton("MontainsRomania chalet");
 		rightPanel.add(b1);
 
+		//press the "MontainsRomania chalet" button => opens a new window
+		b1.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e1) {
+				new MountainsRomaniaChalet();
+			}
+		});
+		
 		
 		
 		//see the window

@@ -54,6 +54,13 @@ public class MountainsRomania {
 			}
 		});
 		
+
+		//add a new button to the right panel
+		JButton b1 = new JButton("MontainsRomania chalet");
+		rightPanel.add(b1);
+
+		
+		
 		//see the window
 		window.setVisible(true);
 	}

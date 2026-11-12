@@ -5,5 +5,9 @@ import javax.swing.JFrame;
 
 public class MountainsRomaniaChalet 
 {
-
+  //constructor
+	public MountainsRomaniaChalet() 
+	{
+    
+  }
 }

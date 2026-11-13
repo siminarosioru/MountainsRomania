@@ -12,5 +12,8 @@ public class MountainsRomaniaChalet
 
 		frame1.setSize(500, 600);
 		frame1.setLayout(null);
+		frame1.setDefaultCloseOperation(frame1.DISPOSE_ON_CLOSE);
+
+		
   }
 }

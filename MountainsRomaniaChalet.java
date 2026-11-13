@@ -8,6 +8,8 @@ public class MountainsRomaniaChalet
   //constructor
 	public MountainsRomaniaChalet() 
 	{
-    
+    	JFrame frame1 = new JFrame("the MountainsRomania chalet");
+
+		
   }
 }

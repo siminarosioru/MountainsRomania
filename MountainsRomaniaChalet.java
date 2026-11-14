@@ -18,6 +18,7 @@ public class MountainsRomaniaChalet
 		//create the Reception button
 		JButton butonReceptie = new JButton("Reception");
 
+		butonReceptie.setBounds(150, 100, 180, 50);
 		
 		
   }

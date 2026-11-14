@@ -14,6 +14,11 @@ public class MountainsRomaniaChalet
 		frame1.setLayout(null);
 		frame1.setDefaultCloseOperation(frame1.DISPOSE_ON_CLOSE);
 
+
+		//create the Reception button
+		JButton butonReceptie = new JButton("Reception");
+
+		
 		
   }
 }

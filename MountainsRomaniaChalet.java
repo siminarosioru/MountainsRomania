@@ -21,7 +21,10 @@ public class MountainsRomaniaChalet
 		butonReceptie.setBounds(150, 100, 180, 50);
 
 		frame1.add(butonReceptie);
-		
+
+		butonReceptie.addActionListener(e -> {
+			
+		});
 		
   }
 }

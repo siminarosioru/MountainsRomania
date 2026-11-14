@@ -23,7 +23,7 @@ public class MountainsRomaniaChalet
 		frame1.add(butonReceptie);
 
 		butonReceptie.addActionListener(e -> {
-			
+			new ReceptionUI();
 		});
 		
   }

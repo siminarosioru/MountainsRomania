@@ -31,8 +31,9 @@ public class MountainsRomaniaChalet
 		frame1.add(butonCamera);
 
 		butonCamera.addActionListener(e -> {
-			
+			new RoomUI();
 		});
+
 		
   }
 }

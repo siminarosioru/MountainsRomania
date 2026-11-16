@@ -29,6 +29,10 @@ public class MountainsRomaniaChalet
 		JButton butonCamera = new JButton("Room");
 		butonCamera.setBounds(150, 200, 180, 50);
 		frame1.add(butonCamera);
+
+		butonCamera.addActionListener(e -> {
+			
+		});
 		
   }
 }

@@ -27,7 +27,7 @@ public class MountainsRomaniaChalet
 
 		//create the Room button
 		JButton butonCamera = new JButton("Room");
-		
+		butonCamera.setBounds(150, 200, 180, 50);
 		
   }
 }

@@ -17,14 +17,17 @@ public class MountainsRomaniaChalet
 
 		//create the Reception button
 		JButton butonReceptie = new JButton("Reception");
-
 		butonReceptie.setBounds(150, 100, 180, 50);
-
 		frame1.add(butonReceptie);
 
 		butonReceptie.addActionListener(e -> {
 			new ReceptionUI();
 		});
+
+
+		//create the Room button
+		JButton butonCamera = new JButton("Room");
+		
 		
   }
 }

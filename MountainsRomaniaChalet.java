@@ -34,6 +34,9 @@ public class MountainsRomaniaChalet
 			new RoomUI();
 		});
 
+
+		//create the "Book a room" button
+		JButton btnRezervaCamera = new JButton("Book a room");
 		
   }
 }

@@ -39,6 +39,10 @@ public class MountainsRomaniaChalet
 		JButton btnRezervaCamera = new JButton("Book a room");
 		btnRezervaCamera.setBounds(150, 300, 180, 50);
 		frame1.add(btnRezervaCamera);
+
+		btnRezervaCamera.addActionListener(e -> {
+			
+		});
 		
   }
 }

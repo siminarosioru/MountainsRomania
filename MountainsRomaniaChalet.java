@@ -41,7 +41,7 @@ public class MountainsRomaniaChalet
 		frame1.add(btnRezervaCamera);
 
 		btnRezervaCamera.addActionListener(e -> {
-			
+			new ReceptionUI();
 		});
 		
   }

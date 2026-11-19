@@ -43,6 +43,11 @@ public class MountainsRomaniaChalet
 		btnRezervaCamera.addActionListener(e -> {
 			new ReceptionUI();
 		});
+
+
+		//create the "File Manager" button
+		JButton butonFileManager = new JButton("File Manager");
+		
 		
   }
 }

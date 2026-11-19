@@ -48,7 +48,7 @@ public class MountainsRomaniaChalet
 		//create the "File Manager" button
 		JButton butonFileManager = new JButton("File Manager");
 		butonFileManager.setBounds(150, 400, 180, 50);
-		
+		frame1.add(butonFileManager);
 		
   }
 }

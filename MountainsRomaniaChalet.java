@@ -53,5 +53,8 @@ public class MountainsRomaniaChalet
 		butonFileManager.addActionListener(e -> {
 			System.out.println("Fisier clienti");
 		});
+
+
+		frame1.setVisible(true);
   }
 }

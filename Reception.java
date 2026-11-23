@@ -9,6 +9,15 @@ public class Reception
 	private String prenumeClient;
 	private String buletinClient;
 
-  
+	//constructor with parameters
+	public Reception(int nr, String nume, String prenume, String buletin) 
+	{
+		this.nrInregistrare = nr;
+		this.numeClient = nume;
+		this.prenumeClient = prenume;
+		this.buletinClient = buletin;
+	}
+
+	
   
 }

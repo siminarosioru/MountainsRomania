@@ -18,6 +18,12 @@ public class Reception
 		this.buletinClient = buletin;
 	}
 
+	//add getter function for the registration number
+	public int getNrInregistrare()
+	{
+		return nrInregistrare;
+	}
+
 	
   
 }

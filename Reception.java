@@ -42,7 +42,11 @@ public class Reception
 		return prenumeClient;
 	}
 
-	
+	//add the String class to the function for returning the client's identity card or passport
+	public String getBuletinClient()
+	{
+		return buletinClient;
+	}
 	
   
 }

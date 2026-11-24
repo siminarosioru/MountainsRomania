@@ -30,6 +30,11 @@ public class Reception
 		this.nrInregistrare = nrInregistrare;
 	}
 
+	//add the String class to the function for returning the client's name
+	public String getNumeClient()
+	{
+		return numeClient;
+	}
 	
   
 }

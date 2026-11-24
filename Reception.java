@@ -35,6 +35,14 @@ public class Reception
 	{
 		return numeClient;
 	}
+
+	//add the String class to the function for returning the client's first name
+	public String getPrenumeClient()
+	{
+		return prenumeClient;
+	}
+
+	
 	
   
 }

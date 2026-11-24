@@ -24,6 +24,12 @@ public class Reception
 		return nrInregistrare;
 	}
 
+	//add setter function for automatic renumbering
+	public void setNrInregistrare(int nrInregistrare)
+	{
+		this.nrInregistrare = nrInregistrare;
+	}
+
 	
   
 }

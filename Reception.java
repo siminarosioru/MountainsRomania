@@ -47,6 +47,11 @@ public class Reception
 	{
 		return buletinClient;
 	}
-	
+
+	//the toString function returns a string representation of the object
+	public String toString()
+	{
+		return nrInregistrare + ". " + numeClient + " " + prenumeClient + " " + buletinClient;
+	}
   
 }

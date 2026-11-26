@@ -7,5 +7,6 @@ public class ReceptionUI
 	JFrame frame = new JFrame("Chalet Reception");
 	
 	frame.setSize(600, 400);
+	frame.setLayout(null);
   
 }

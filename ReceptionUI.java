@@ -8,5 +8,6 @@ public class ReceptionUI
 	
 	frame.setSize(600, 400);
 	frame.setLayout(null);
-  
+	frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+
 }
